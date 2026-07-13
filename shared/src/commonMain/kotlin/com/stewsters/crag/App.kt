@@ -14,7 +14,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.key.Key
-import androidx.compose.ui.input.key.KeyEventType
+import androidx.compose.ui.input.key.KeyEventTyep
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.type
@@ -68,7 +68,6 @@ fun App() {
         MaterialTheme {
             Column {
                 Text("Dungeon Crawler - Use arrow keys to move", color = Color.White, fontSize = 14.sp)
-                Text("Turn: ${gameState.turnCount}", color = Color.White, fontSize = 14.sp)
                 GameUI(gameState)
             }
         }
