@@ -1,5 +1,6 @@
 package com.stewsters.crag.ecs.entity
 
+import androidx.compose.ui.graphics.Color
 import com.stewsters.crag.ecs.component.Inventory
 import com.stewsters.crag.ecs.component.Item
 import com.stewsters.crag.ecs.component.Life
@@ -7,8 +8,8 @@ import com.stewsters.crag.ecs.component.TurnTaker
 import com.stewsters.crag.ecs.enums.DisplayOrder
 import com.stewsters.crag.ecs.enums.Faction
 import com.stewsters.crag.map.MapChunk
-import kaiju.math.Vec3
-import java.awt.Color
+import com.stewsters.crag.math.Vec3
+
 
 class Entity(
     var chunk: MapChunk,
@@ -18,7 +19,7 @@ class Entity(
     var description: String? = null,
 
     var char: Int = '@'.code,
-    var color: Color = Color.WHITE,
+    var color: Color = Color.White,
     var displayOrder: DisplayOrder = DisplayOrder.LAST,
 
     var turnTaker: TurnTaker? = null,

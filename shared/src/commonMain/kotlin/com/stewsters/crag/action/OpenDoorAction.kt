@@ -2,7 +2,7 @@ package com.stewsters.crag.action
 
 import com.stewsters.crag.ecs.entity.Entity
 import com.stewsters.crag.map.TileType
-import kaiju.math.Vec3
+import com.stewsters.crag.math.Vec3
 
 
 class OpenDoorAction(pawn: Entity, private val pos: Vec3) : Action(pawn) {

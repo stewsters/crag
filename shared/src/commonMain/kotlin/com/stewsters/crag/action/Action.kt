@@ -14,8 +14,8 @@ abstract class Action(
         return ActionResult.FAILURE
     }
 
-    override fun toString(): String {
-        return javaClass.name.split('.').last()
-    }
+//    override fun toString(): String {
+//        return javaClass.name.split('.').last()
+//    }
 
 }

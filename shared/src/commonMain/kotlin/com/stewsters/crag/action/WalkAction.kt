@@ -2,7 +2,7 @@ package com.stewsters.crag.action
 
 import com.stewsters.crag.ecs.entity.Entity
 import com.stewsters.crag.map.TileType
-import kaiju.math.Vec3
+import com.stewsters.crag.math.Vec3
 
 class WalkAction(pawn: Entity, private val offset: Vec3) : Action(pawn) {
 

@@ -4,9 +4,8 @@ import com.stewsters.crag.action.Action
 import com.stewsters.crag.action.WalkAction
 import com.stewsters.crag.ecs.entity.Entity
 import com.stewsters.crag.map.MapChunk
-import kaiju.math.Vec3
-import kaiju.math.getChebyshevDistance
-import kaiju.math.limit
+import com.stewsters.crag.math.Vec3
+import com.stewsters.crag.math.getChebyshevDistance
 
 
 // Need to be able to define a set of available high level actions, test them out, and choose the best one
