@@ -6,7 +6,6 @@ import com.stewsters.crag.math.Vec3
 
 class WalkAction(pawn: Entity, private val offset: Vec3) : Action(pawn) {
 
-
     override fun onPerform(): ActionResult {
 
         if (offset.x == 0 && offset.y == 0) {
